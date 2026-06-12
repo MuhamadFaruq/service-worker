@@ -63,7 +63,7 @@
     },
     {
       "src": "icons/screenshot-wide.png",
-      "sizes": "1920x1080",
+      "sizes": "2880x1800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Tampilan Dapur Belajar Desktop"
