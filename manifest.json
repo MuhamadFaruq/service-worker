@@ -125,7 +125,7 @@
   ],
   "scope_extensions": [
     {
-      "origin": "*.github.io"
+      "origin": "https://muhamadfaruq.github.io"
     }
   ],
   "widgets": [
@@ -134,9 +134,9 @@
       "short_name": "DB Widget",
       "description": "Widget Dapur Belajar",
       "tag": "dapur-belajar-widget",
-      "template_url": "./widget.json",
+      "template_url": "widget.json",
       "type": "application/json",
-      "action": "./?widget=1",
+      "action": "widget",
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
