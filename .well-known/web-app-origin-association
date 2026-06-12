@@ -1,0 +1,5 @@
+{
+  "https://muhamadfaruq.github.io/service-worker/": {
+    "scope": "/"
+  }
+}

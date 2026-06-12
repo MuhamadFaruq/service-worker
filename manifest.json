@@ -125,10 +125,8 @@
   ],
   "scope_extensions": [
     {
+      "type": "origin",
       "origin": "https://muhamadfaruq.github.io"
-    },
-    {
-      "origin": "*.muhamadfaruq.github.io"
     }
   ],
   "widgets": [
@@ -137,10 +135,10 @@
       "short_name": "DB Widget",
       "description": "Widget Dapur Belajar",
       "tag": "dapur-belajar-widget",
-      "template_url": "https://muhamadfaruq.github.io/service-worker/widget.json",
-      "ms_ac_template": "https://muhamadfaruq.github.io/service-worker/widget.json",
+      "template_url": "widget.json",
+      "ms_ac_template": "widget.json",
       "type": "application/json",
-      "action": "/",
+      "action": "./",
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
