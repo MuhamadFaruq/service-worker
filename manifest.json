@@ -8,6 +8,7 @@
   "display": "standalone",
   "display_override": [
     "window-controls-overlay",
+    "tabbed",
     "standalone",
     "browser"
   ],
@@ -99,16 +100,19 @@
   "edge_side_panel": {
     "preferred_width": 400
   },
+  "note_taking": {
+    "new_note_url": "./"
+  },
+  "handle_links": "auto",
   "widgets": [
     {
       "name": "Dapur Belajar Widget",
+      "short_name": "DB Widget",
       "description": "Widget Dapur Belajar",
       "tag": "dapur-belajar-widget",
       "template_url": "widget.json",
       "type": "application/json",
-      "action": "./widget",
-      "delay": 1000,
-      "update": 86400,
+      "action": "./",
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
