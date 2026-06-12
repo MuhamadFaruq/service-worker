@@ -10,17 +10,20 @@
   "theme_color": "#162E93",
   "orientation": "portrait",
   "lang": "id",
+  "categories": ["education", "utilities"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icons/icon-192x192-A.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icons/icon-512x512-B.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
   "screenshots": [
@@ -28,12 +31,15 @@
       "src": "icons/screenshot1.png",
       "sizes": "1280x720",
       "type": "image/png",
-      "form_factor": "wide"
+      "form_factor": "wide",
+      "label": "Tampilan Desktop Dapur Belajar"
     },
     {
       "src": "icons/screenshot2.png",
       "sizes": "720x1280",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile Dapur Belajar"
     }
   ],
   "shortcuts": [
@@ -44,7 +50,8 @@
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
-          "sizes": "192x192"
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     }
