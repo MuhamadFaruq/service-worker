@@ -1,30 +1,26 @@
-[
-  {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "type": "AdaptiveCard",
-    "version": "1.5",
-    "body": [
-      {
-        "type": "TextBlock",
-        "text": "Dapur Belajar",
-        "weight": "Bolder",
-        "size": "Medium",
-        "color": "Accent"
-      },
-      {
-        "type": "TextBlock",
-        "text": "Fokus Matematika SMA",
-        "wrap": true,
-        "isSubtle": true,
-        "size": "Small"
-      }
-    ],
-    "actions": [
-      {
-        "type": "Action.OpenUrl",
-        "title": "Buka Sekarang",
-        "url": "https://muhamadfaruq.github.io/service-worker/"
-      }
-    ]
-  }
-]
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Dapur Belajar",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Fokus Matematika SMA",
+      "wrap": true,
+      "isSubtle": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Buka Dapur Belajar",
+      "url": "https://muhamadfaruq.github.io/service-worker/"
+    }
+  ]
+}
