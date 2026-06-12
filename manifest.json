@@ -6,11 +6,18 @@
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
   "background_color": "#ffffff",
   "theme_color": "#162E93",
   "orientation": "portrait",
+  "dir": "ltr",
   "lang": "id",
   "categories": ["education", "utilities"],
+  "iarc_rating_id": "e5841934-1a28-4036-9a2c-29b168694b2a",
   "prefer_related_applications": false,
   "icons": [
     {
@@ -40,6 +47,13 @@
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Tampilan Dapur Belajar 2"
+    },
+    {
+      "src": "icons/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tampilan Dapur Belajar Desktop"
     }
   ],
   "shortcuts": [
@@ -47,6 +61,54 @@
       "name": "Buka Beranda",
       "short_name": "Home",
       "url": "./index.html",
+      "icons": [
+        {
+          "src": "icons/icon-192x192-A.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/plain": [".txt"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+dapurbelajar",
+      "url": "./?link=%s"
+    }
+  ],
+  "share_target": {
+    "action": "./share-target/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "widgets": [
+    {
+      "name": "Dapur Belajar Widget",
+      "description": "Widget Dapur Belajar",
+      "tag": "dapur-belajar-widget",
+      "template_url": "widget.json",
+      "type": "application/json",
+      "action": "./widget",
+      "delay": 1000,
+      "update": 86400,
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
