@@ -12,6 +12,18 @@
     "standalone",
     "browser"
   ],
+  "tab_strip": {
+    "home_tab": {
+      "icons": [
+        {
+          "src": "icons/icon-192x192-A.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "visibility": "auto"
+    }
+  },
   "background_color": "#ffffff",
   "theme_color": "#162E93",
   "orientation": "portrait",
