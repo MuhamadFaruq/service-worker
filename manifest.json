@@ -116,15 +116,27 @@
     "new_note_url": "./"
   },
   "handle_links": "auto",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.dapurbelajar.app",
+      "id": "com.dapurbelajar.app"
+    }
+  ],
+  "scope_extensions": [
+    {
+      "origin": "*.github.io"
+    }
+  ],
   "widgets": [
     {
       "name": "Dapur Belajar Widget",
       "short_name": "DB Widget",
       "description": "Widget Dapur Belajar",
       "tag": "dapur-belajar-widget",
-      "template_url": "widget.json",
+      "template_url": "./widget.json",
       "type": "application/json",
-      "action": "./",
+      "action": "./?widget=1",
       "icons": [
         {
           "src": "icons/icon-192x192-A.png",
